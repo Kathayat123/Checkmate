@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ADDR1" xml:space="preserve">
+    <value>ADDRESS LINE 1:</value>
+  </data>
+  <data name="ADDR2" xml:space="preserve">
+    <value>ADDRESS LINE 2:</value>
+  </data>
+  <data name="ADDR3" xml:space="preserve">
+    <value>ADDRESS LINE 3:</value>
+  </data>
+  <data name="AlternateMobileNo" xml:space="preserve">
+    <value>ALTERNATE MOBILE NO:</value>
+  </data>
+  <data name="ApplicantFatherName" xml:space="preserve">
+    <value>APPLICANT FATHER'S NAME:</value>
+  </data>
+  <data name="ApplicantFullname" xml:space="preserve">
+    <value>APPLICANT FULL NAME:</value>
+  </data>
+  <data name="ApplicantMotherName" xml:space="preserve">
+    <value>APPLICANT MOTHER'S NAME:</value>
+  </data>
+  <data name="CATEGORY" xml:space="preserve">
+    <value>CATEGORY :</value>
+  </data>
+  <data name="CertificateNo" xml:space="preserve">
+    <value>CERTIFICATE NO &lt;br/&gt;(NON-MANDATORY):</value>
+  </data>
+  <data name="COA" xml:space="preserve">
+    <value>CORRESPONDENCE ADDRESS :</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>CONFIRM EMAIL ID :</value>
+  </data>
+  <data name="DISTRICT" xml:space="preserve">
+    <value>DISTRICT:</value>
+  </data>
+  <data name="DOB" xml:space="preserve">
+    <value>DATE OF BIRTH:</value>
+  </data>
+  <data name="Domicile" xml:space="preserve">
+    <value>DOMICILE STATE :</value>
+  </data>
+  <data name="EmailId" xml:space="preserve">
+    <value>EMAIL ID :</value>
+  </data>
+  <data name="EXAMINATION" xml:space="preserve">
+    <value>EXAMINATION &lt;BR/&gt;</value>
+  </data>
+  <data name="EXSERVICEMAN" xml:space="preserve">
+    <value>EX-SERVICEMEN :</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>GENDER :</value>
+  </data>
+  <data name="MARITALSTATUS" xml:space="preserve">
+    <value>MARITAL STATUS:</value>
+  </data>
+  <data name="MobileNo" xml:space="preserve">
+    <value>MOBILE NO:</value>
+  </data>
+  <data name="NameOfInstitute" xml:space="preserve">
+    <value>NAME OF INSTITUTE :</value>
+  </data>
+  <data name="NATIONALITY" xml:space="preserve">
+    <value>NATIONALITY :</value>
+  </data>
+  <data name="NOC" xml:space="preserve">
+    <value>NAME OF COURSE&lt;br/&gt;:</value>
+  </data>
+  <data name="NOI" xml:space="preserve">
+    <value>NAME OF INSTITUTION/BOARD
+/UNIVERSITY&lt;BR/&gt;</value>
+  </data>
+  <data name="PADD" xml:space="preserve">
+    <value>PERMANENT ADDRESS :</value>
+  </data>
+  <data name="PAF" xml:space="preserve">
+    <value>COURSE APPLIED FOR :</value>
+  </data>
+  <data name="PD" xml:space="preserve">
+    <value>TYPE OF DISABILITY :</value>
+  </data>
+  <data name="PERCENTAGE" xml:space="preserve">
+    <value>PERCENTAGE &lt;BR/&gt;</value>
+  </data>
+  <data name="PINCODE" xml:space="preserve">
+    <value>PIN CODE :</value>
+  </data>
+  <data name="PTC" xml:space="preserve">
+    <value>PREFFERED TEST CITIES </value>
+  </data>
+  <data name="Roll" xml:space="preserve">
+    <value>ROLL NO  &lt;BR/&gt;</value>
+  </data>
+  <data name="STATE" xml:space="preserve">
+    <value>STATE :</value>
+  </data>
+  <data name="SUBCATEGORY" xml:space="preserve">
+    <value>SUB CATEGORY ):</value>
+  </data>
+  <data name="TCC1" xml:space="preserve">
+    <value>TEST CENTER CITY 1:</value>
+  </data>
+  <data name="TCC2" xml:space="preserve">
+    <value>TEST CENTER CITY 2 :</value>
+  </data>
+  <data name="TCC3" xml:space="preserve">
+    <value>TEST CENTER CITY 3:</value>
+  </data>
+  <data name="TCC4" xml:space="preserve">
+    <value>TEST CENTER CITY 4 :</value>
+  </data>
+  <data name="TCC5" xml:space="preserve">
+    <value>TEST CENTER CITY 5:</value>
+  </data>
+  <data name="UYP" xml:space="preserve">
+    <value>UPLOAD YOUR PHOTOGRAPH:</value>
+  </data>
+  <data name="UYS" xml:space="preserve">
+    <value>UPLOAD YOUR SIGNATURE :</value>
+  </data>
+  <data name="YOP" xml:space="preserve">
+    <value>YEAR OF PASSING&lt;BR/&gt;</value>
+  </data>
+  <data name="regcomplete" xml:space="preserve">
+    <value>YOUR REGISTERATION IS COMPLETED</value>
+  </data>
+  <data name="EXFROMDATE" xml:space="preserve">
+    <value>EX- SERVICE MAN (START DATE OF SERVICE) &lt;BR/&gt;:</value>
+  </data>
+  <data name="EXTODATE" xml:space="preserve">
+    <value>EX- SERVICE MAN (RETIREMENT/DISCHARGE DATE OF SERVICE)&lt;BR/&gt;</value>
+  </data>
+  <data name="sameas" xml:space="preserve">
+    <value>SAME AS </value>
+  </data>
+  <data name="SPORTTYPE" xml:space="preserve">
+    <value>SPORT TYPE:</value>
+  </data>
+  <data name="spouse" xml:space="preserve">
+    <value>NUMBER OF SPOUSE :</value>
+  </data>
+  <data name="tenth" xml:space="preserve">
+    <value>10th(HIGH SCHOOL)&lt;br/&gt;</value>
+  </data>
+  <data name="TOTALAGE" xml:space="preserve">
+    <value>TOTAL AGE :</value>
+  </data>
+  <data name="TOTEXP" xml:space="preserve">
+    <value>TOTAL PERIOD OF SERVICE (सेवा की कुल अवधि):</value>
+  </data>
+  <data name="TWELTH" xml:space="preserve">
+    <value>12th (INTERMEDIATE)&lt;BR/&gt;
+</value>
+  </data>
+  <data name="BANK" xml:space="preserve">
+    <value>BANK </value>
+  </data>
+  <data name="BANKCHARGE" xml:space="preserve">
+    <value>BANK CHARGE</value>
+  </data>
+  <data name="EXAMFEE" xml:space="preserve">
+    <value>EXAM FEE </value>
+  </data>
+  <data name="PDTYPE" xml:space="preserve">
+    <value>NATURE OF DISABILITY</value>
+  </data>
+  <data name="Graduation" xml:space="preserve">
+    <value>GRADUATION &lt;BR/&gt;</value>
+  </data>
+  <data name="PostGraduation" xml:space="preserve">
+    <value>POST GRADUATION &lt;BR/&gt;</value>
+  </data>
+  <data name="ActualFee" xml:space="preserve">
+    <value>ACTUAL FEE &lt;BR/&gt;</value>
+  </data>
+  <data name="BankCharges" xml:space="preserve">
+    <value>BANK CHARGES &lt;BR/&gt;</value>
+  </data>
+  <data name="orderamount" xml:space="preserve">
+    <value>TOTAL &lt;br/&gt; &amp;nbsp;&amp;nbsp;</value>
+  </data>
+  <data name="orderno" xml:space="preserve">
+    <value>Order No. &lt;br/&gt;  &amp;nbsp;&amp;nbsp;</value>
+  </data>
+  <data name="YOP1" xml:space="preserve">
+    <value>YEAR OF PASSING/PASSED/APPEARING&lt;BR/&gt;(उत्तीर्ण होने का वर्ष)</value>
+  </data>
+  <data name="AdharNo" xml:space="preserve">
+    <value>AADHAR CARD NO:</value>
+  </data>
+  <data name="AnnualIncome" xml:space="preserve">
+    <value>PARENTS ANNUAL INCOME</value>
+  </data>
+  <data name="BGRADE" xml:space="preserve">
+    <value>NCC CERTIFICATE:</value>
+  </data>
+  <data name="ISadhar" xml:space="preserve">
+    <value>DO YOU HAVE AADHAR CARD:</value>
+  </data>
+  <data name="KashimriMigrants" xml:space="preserve">
+    <value>KASHMIRI MIGRANTS</value>
+  </data>
+  <data name="Minority" xml:space="preserve">
+    <value>MINORITY</value>
+  </data>
+  <data name="MinorityDetail" xml:space="preserve">
+    <value>MINORITY DETAIL</value>
+  </data>
+  <data name="NCCBCert" xml:space="preserve">
+    <value>NCC 'B' CERTIFICATE</value>
+  </data>
+  <data name="NCCCCert" xml:space="preserve">
+    <value>NCC 'C' CERTIFICATE</value>
+  </data>
+  <data name="PH" xml:space="preserve">
+    <value>DIFFERENTLY- ABLED (PH) :</value>
+  </data>
+  <data name="WardsUniversity" xml:space="preserve">
+    <value>WARDS OF UNIVERSITY OF ALLAHABAD EMPLOYEE</value>
+  </data>
+  <data name="NCCGrade" xml:space="preserve">
+    <value>NCC GRADE</value>
+  </data>
+  <data name="AadharCard" xml:space="preserve">
+    <value>AADHAR CARD:</value>
+  </data>
+  <data name="AadharCardNo" xml:space="preserve">
+    <value>AADHAR NUMBER:</value>
+  </data>
+  <data name="AIParent" xml:space="preserve">
+    <value>ANNUAL INCOME OF PARENT:</value>
+  </data>
+  <data name="CCandName" xml:space="preserve">
+    <value>CONFIRM APPLICANT FULL NAME:</value>
+  </data>
+  <data name="CourseofStudy" xml:space="preserve">
+    <value>COURSE APPLIED FOR:</value>
+  </data>
+  <data name="Equivalance" xml:space="preserve">
+    <value>EQUIVALENCE</value>
+  </data>
+  <data name="mode" xml:space="preserve">
+    <value>MODE OF ENTRANCE EXAM:</value>
+  </data>
+  <data name="Music" xml:space="preserve">
+    <value>MUSIC</value>
+  </data>
+  <data name="paymentoption" xml:space="preserve">
+    <value>MODE OF EXAMINATION:</value>
+  </data>
+  <data name="Physical" xml:space="preserve">
+    <value>PHYSICAL:</value>
+  </data>
+  <data name="SPORTPERSON" xml:space="preserve">
+    <value>SPORTS PERSON:</value>
+  </data>
+  <data name="UYTH" xml:space="preserve">
+    <value>UPLOAD YOUR LEFT THUMB IMPRESSION:</value>
+  </data>
+</root>

@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutMe" xml:space="preserve">
+    <value>माझ्या बद्दल</value>
+  </data>
+  <data name="avilreservationornot" xml:space="preserve">
+    <value>Whether candidate wants to take/avail reservation benefit &lt;br/&gt; उमदवारस आरक्षण लाभ हवा आहे काय</value>
+  </data>
+  <data name="castcertificatefromMHgov" xml:space="preserve">
+    <value>महाराष्ट्र शासनाच्या सक्षम प्राधिकाऱ्याने दिलेला जातीचा दाखला धारण करत आहात काय?</value>
+  </data>
+  <data name="castvalidity" xml:space="preserve">
+    <value>महाराष्ट्र शासनाच्या सक्षम प्राधिकाऱ्याने दिलेले जात वैधता प्रमाणपत्र धारण करत आहात काय?</value>
+  </data>
+  <data name="category" xml:space="preserve">
+    <value>अर्जदाराची जात व पोटजात</value>
+  </data>
+  <data name="city" xml:space="preserve">
+    <value>City&lt;br/&gt;शहर</value>
+  </data>
+  <data name="cpfno" xml:space="preserve">
+    <value>होय असल्यास भविष्य निर्वाह निधी (CPF NO) क्रमांक नोंदवावा</value>
+  </data>
+  <data name="Desc" xml:space="preserve">
+    <value>हाय, मी बिपीन बी ASP.NET, C#, SQL Server वर मुंबई गेल्या 7 वर्षे क  काम आहे.</value>
+  </data>
+  <data name="dob" xml:space="preserve">
+    <value>Note: Enter your Name &amp; Date Of Birth as mentioned in SSC/School Leaving Certificate  &lt;br/&gt; टिप: दहावी / शाळा सोडल्याचा दाखवल्यावर नमुद केलेली जन्मतारीख  नमुद करावी </value>
+  </data>
+  <data name="dob1" xml:space="preserve">
+    <value>जन्म तारीख</value>
+  </data>
+  <data name="domicilecertificate" xml:space="preserve">
+    <value>अर्जदार महाराष्ट्राचा अधिवासी आहे काय</value>
+  </data>
+  <data name="emailid" xml:space="preserve">
+    <value>ई-मेल आयडी</value>
+  </data>
+  <data name="Eng" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="eRegno" xml:space="preserve">
+    <value>Registration No. &lt;br/&gt; नोंदणी क्र.</value>
+  </data>
+  <data name="eyearvalid" xml:space="preserve">
+    <value>Valid upto &lt;br/&gt;वैधता समाप्ती दिनांक</value>
+  </data>
+  <data name="fathername" xml:space="preserve">
+    <value>वडिलांचे / पतीचे नाव</value>
+  </data>
+  <data name="firstname" xml:space="preserve">
+    <value>स्वतःचे नाव</value>
+  </data>
+  <data name="gender" xml:space="preserve">
+    <value>लिंग</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>ASP.NET मध्ये भाषा परिवर्तन</value>
+  </data>
+  <data name="Hindi" xml:space="preserve">
+    <value>हिंदी</value>
+  </data>
+  <data name="isDepartmental" xml:space="preserve">
+    <value>अर्जदार महानिर्मिती कंपनीचा कार्यरत कर्मचारी आहे का?</value>
+  </data>
+  <data name="knowmarathi" xml:space="preserve">
+    <value>Do you have the knowledge of Marathi?&lt;br/&gt; मराठी भाषेचे  ज्ञान आहे काय?</value>
+  </data>
+  <data name="lastname" xml:space="preserve">
+    <value>आडनाव</value>
+  </data>
+  <data name="Marathi" xml:space="preserve">
+    <value>मराठी</value>
+  </data>
+  <data name="maritalstatus" xml:space="preserve">
+    <value>वैवाहिक स्थिती</value>
+  </data>
+  <data name="middlename" xml:space="preserve">
+    <value>वडिलांचे / पतीचे नाव</value>
+  </data>
+  <data name="mobileno" xml:space="preserve">
+    <value>मोबाईल क्र. १</value>
+  </data>
+  <data name="nameofZone" xml:space="preserve">
+    <value>Name of Zone &lt;br/&gt;परिमंडल</value>
+  </data>
+  <data name="nclcertificate" xml:space="preserve">
+    <value>महाराष्ट्र शासनाच्या प्राधिकृत केलेल्या सक्षम प्राधिकाऱ्याचे उन्नत / प्रगत गटात मोडत नसल्याचे  प्रमाणपत्र अपलोड करा</value>
+  </data>
+  <data name="pcity1" xml:space="preserve">
+    <value> शहर</value>
+  </data>
+  <data name="permanentaddress" xml:space="preserve">
+    <value> कायमचा पत्ता</value>
+  </data>
+  <data name="pinno" xml:space="preserve">
+    <value>पिनकोड</value>
+  </data>
+  <data name="positionApplied" xml:space="preserve">
+    <value>Position Applied&lt;br/&gt;पदनाम</value>
+  </data>
+  <data name="postaladdress" xml:space="preserve">
+    <value>पत्रव्यवहाराचा पत्ता</value>
+  </data>
+  <data name="postcode" xml:space="preserve">
+    <value>Post Code &lt;br/&gt;पदाचा कोड</value>
+  </data>
+  <data name="ppinno" xml:space="preserve">
+    <value>Pin Code&lt;br/&gt;पिनकोड</value>
+  </data>
+  <data name="preferredcity1" xml:space="preserve">
+    <value>Preferred Test City1&lt;br/&gt; परिक्षा केंद्र प्राधान्य क्र.1</value>
+  </data>
+  <data name="preferredcity2" xml:space="preserve">
+    <value>Preferred Test City2&lt;br/&gt;परिक्षा केंद्र प्राधान्य क्र.2</value>
+  </data>
+  <data name="preferredcity3" xml:space="preserve">
+    <value>Preferred Test City3&lt;br/&gt;परिक्षा केंद्र प्राधान्य क्र.3</value>
+  </data>
+  <data name="pstate" xml:space="preserve">
+    <value>State &lt;br/&gt;राज्य</value>
+  </data>
+  <data name="ruregisterwithempexchange" xml:space="preserve">
+    <value>Whether registered with any employment Exchange ? &lt;br/&gt;सेवायोजन कार्यालय मध्ये तुम्ही नाव नोंदवले आहे काय?</value>
+  </data>
+  <data name="state" xml:space="preserve">
+    <value>State &lt;br/&gt;राज्य</value>
+  </data>
+  <data name="advertisement" xml:space="preserve">
+    <value>Advertisement / जाहिरात पाहण्यासाठी येथे क्लिक करा</value>
+  </data>
+  <data name="amravati" xml:space="preserve">
+    <value>Amravati / अमरावती</value>
+  </data>
+  <data name="aurangabad" xml:space="preserve">
+    <value>Aurangabad / औरंगाबाद</value>
+  </data>
+  <data name="guideline" xml:space="preserve">
+    <value>Guidelines / उमेदवार सामान्य सूचना</value>
+  </data>
+  <data name="implinks" xml:space="preserve">
+    <value>Important Links / महत्वाच्या लिंक</value>
+  </data>
+  <data name="imppoints" xml:space="preserve">
+    <value>Important Points /महत्वपूर्ण सूचना -</value>
+  </data>
+  <data name="kalwa" xml:space="preserve">
+    <value>Kalwa / कळवा</value>
+  </data>
+  <data name="karad" xml:space="preserve">
+    <value>Karad / कराड</value>
+  </data>
+  <data name="maritalstatus1" xml:space="preserve">
+    <value>वैवाहिक स्थिती</value>
+  </data>
+  <data name="marriagedate" xml:space="preserve">
+    <value>Marriage Date / लग्न तारीख</value>
+  </data>
+  <data name="mothername" xml:space="preserve">
+    <value>आईचे नाव</value>
+  </data>
+  <data name="nagpur" xml:space="preserve">
+    <value>Nagpur / नागपूर</value>
+  </data>
+  <data name="nasik" xml:space="preserve">
+    <value>Nashik / नाशिक</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="personaldetails" xml:space="preserve">
+    <value>व्यक्तिगत जानकारी</value>
+  </data>
+  <data name="pune" xml:space="preserve">
+    <value>Pune / पुणे</value>
+  </data>
+  <data name="readAdvertisement" xml:space="preserve">
+    <value>जाहिरात पाहण्यासाठी येथे क्लिक करा</value>
+  </data>
+  <data name="stratmarks" xml:space="preserve">
+    <value>चिह्नित जानकारी अनिवार्य हैं</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Yes </value>
+  </data>
+  <data name="zonalwisereservation" xml:space="preserve">
+    <value>Zone Wise Advertisement / परिमंडल निहाय जाहिरात</value>
+  </data>
+  <data name="companyjoiningdate" xml:space="preserve">
+    <value>When you have joined &lt;br/&gt; </value>
+  </data>
+  <data name="confirmemailid" xml:space="preserve">
+    <value>ई-मेल आयडी खा‍त्री करा </value>
+  </data>
+  <data name="exprirydate" xml:space="preserve">
+    <value>Till Valid &lt;br/&gt; वैधता समाप्ती दिनांक</value>
+  </data>
+  <data name="fromyear" xml:space="preserve">
+    <value>From Year&lt;br/&gt; सेवा कालावधी पासून</value>
+  </data>
+  <data name="ifanyregno" xml:space="preserve">
+    <value>Registration No. &lt;br/&gt; नोंदणी क्र.</value>
+  </data>
+  <data name="isdistrictsoldure" xml:space="preserve">
+    <value>Have you registered at District Sainik Board?&lt;br/&gt;जिल्हा सैनिक बोर्डात नाव नोंदणी केली आहे काय ?</value>
+  </data>
+  <data name="isearthquakeaffected" xml:space="preserve">
+    <value>भूकंपग्रस्त आरक्षणाचा लाभ हवा आहे काय?</value>
+  </data>
+  <data name="isph" xml:space="preserve">
+    <value>Availing reservation for Person with disability ? &lt;br/&gt; उमेदवारास अपंग आरक्षणाचा लाभ हवा आहे काय?</value>
+  </data>
+  <data name="isphCertificate" xml:space="preserve">
+    <value>Do you have PWD Certificate&lt;br/&gt;अपंगत्वाचे सक्षम प्रमाणपत्र आहे काय?</value>
+  </data>
+  <data name="isphPercentage" xml:space="preserve">
+    <value>Percentage of Disability &lt;br /&gt;अपंगत्वाची टक्केवारी</value>
+  </data>
+  <data name="isphtype" xml:space="preserve">
+    <value>Type of Disability &lt;br/&gt;अपंगत्वाचा प्रकार </value>
+  </data>
+  <data name="isphUploadCertificate" xml:space="preserve">
+    <value>Upload valid PWD Certificate &lt;br/&gt;अपंगत्वाचे वैध प्रमाणपत्र अपलोड करा</value>
+  </data>
+  <data name="issoldure" xml:space="preserve">
+    <value>Availing reservation benefit for Ex-Servicemen? &lt;br/&gt;माजी सैनिक आरक्षणांतर्गत अर्ज करीत आहात काय?</value>
+  </data>
+  <data name="issportperson" xml:space="preserve">
+    <value>Whether availing reservation for Meritorious Sport Persons?&lt;br/&gt;अतिउच्च गुणवत्ताधारक खेळाडू आरक्षणाचा लाभ हवा आहे काय?</value>
+  </data>
+  <data name="istrainingatMSB" xml:space="preserve">
+    <value>Are you a candidate who has undergone Apprentice training in Electrician Trade in erstwhile MSEB / MSETCL?&lt;br/&gt;आपण तदर्थ म.रा.वि. मंडळ / म.रा.वि. पारेषण कंपनीमध्ये वीजतंत्री या व्यवसायातील शिकाऊ उमेदवारी पूर्ण केली आहे काय?</value>
+  </data>
+  <data name="noofchildrens" xml:space="preserve">
+    <value>विवाहित असल्यास किती अपत्ये आहेत</value>
+  </data>
+  <data name="sapid" xml:space="preserve">
+    <value>सध्याचे कामाचे ठिकाण:&lt;br/&gt;
+(महानिर्मिती कार्यरत कर्मचाऱ्यांकरिता)</value>
+  </data>
+  <data name="toyear" xml:space="preserve">
+    <value>To Year&lt;br/&gt; सेवा कालावधी पर्यंत</value>
+  </data>
+  <data name="womenreservation" xml:space="preserve">
+    <value>Availing reservation for WOMEN &lt;br/&gt;महिला आरक्षणाचा लाभ हवा आहे काय ? </value>
+  </data>
+  <data name="zone" xml:space="preserve">
+    <value>Select Zone &lt;br/&gt; परिमंडल निवडा</value>
+  </data>
+  <data name="districtempoffice" xml:space="preserve">
+    <value>Are you registered Wtih District Employment Office? &lt;br/&gt; उमेदवाराने जिल्हा रोजगार व स्वयंरोजगार कार्यालयात नाव नोंदणी केली आहे काय?</value>
+  </data>
+  <data name="douhvknowmarathi" xml:space="preserve">
+    <value>Do you have the knowledge of Marathi? &lt;br/&gt;मराठी भाषेचे ज्ञान आहे काय?</value>
+  </data>
+  <data name="jobtrade" xml:space="preserve">
+    <value>Training period (in Months)&lt;br/&gt;प्रशिक्षण कालावधीतील (महिन्यात)</value>
+  </data>
+  <data name="msbofficeaddress" xml:space="preserve">
+    <value>Office Address  &lt;br/&gt; म.रा.वि. मंडळाच्या / महापारेषण कंपनीच्या ज्या कार्यालयात उमेदवारी केली त्या कार्यालयाचे नाव व पत्ता</value>
+  </data>
+  <data name="projectaffectedwithmsb" xml:space="preserve">
+    <value>Are you PAP of Mahatransco&lt;br/&gt;महापारेषण कंपनीचे प्रकल्पग्रस्त आहात काय?</value>
+  </data>
+  <data name="projectreservation" xml:space="preserve">
+    <value>Availing reservation for Project affected Person? &lt;br/&gt;प्रकल्पग्रस्त आरक्षणाचा लाभ हवा आहे काय?</value>
+  </data>
+  <data name="soldurecertificate" xml:space="preserve">
+    <value>Do you have Ex-Service man Certificate?&lt;br/&gt; सशस्त्र दलात सेवा केल्याबद्दलचे प्रमाणपत्र आहे का?</value>
+  </data>
+  <data name="statedomicile" xml:space="preserve">
+    <value>&lt;br/&gt;उमेदवार हा महाराष्ट्र राज्याचा रहिवाशी आहे काय?</value>
+  </data>
+  <data name="uploadcastcertificate" xml:space="preserve">
+    <value> जात प्रमाणपत्र अपलोड करा</value>
+  </data>
+  <data name="uploaddomicilecertificate" xml:space="preserve">
+    <value>अधिवासी प्रमाणपत्र  अपलोड करा</value>
+  </data>
+  <data name="uploadsoldurecertificate" xml:space="preserve">
+    <value>Upload Ex-Servicemen Certificate&lt;br/&gt;सशस्त्र दलात सेवा केल्याबद्दलचे प्रमाणपत्र अपलोड करा</value>
+  </data>
+  <data name="boardnun" xml:space="preserve">
+    <value>Board / University&lt;br/&gt;शाळा/मंडळ/विद्यापीठ/ संस्थेचे नाव</value>
+  </data>
+  <data name="epassword" xml:space="preserve">
+    <value>आणि पासवर्ड आहे</value>
+  </data>
+  <data name="imppoints1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imppoints2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imppoints3" xml:space="preserve">
+    <value>फार्म केवल अंग्रेजी में भरें.(Fill-up the Form in English Only)</value>
+  </data>
+  <data name="loginid" xml:space="preserve">
+    <value>कृपया लक्षात ठेवा तुमचा लॉगिन आयडी आहे</value>
+  </data>
+  <data name="orderamount" xml:space="preserve">
+    <value>Amount &lt;br/&gt; &amp;nbsp;&amp;nbsp;एकूण रक्कम</value>
+  </data>
+  <data name="orderno" xml:space="preserve">
+    <value>Order No. &lt;br/&gt;  &amp;nbsp;&amp;nbsp;मागणी क्रमांक</value>
+  </data>
+  <data name="qualification" xml:space="preserve">
+    <value>Qualification&lt;br/&gt; परीक्षेचे नाव</value>
+  </data>
+  <data name="regcomplete" xml:space="preserve">
+    <value>First step of your registration is complete / आपण नोंदणी प्रक्रियेचा पहिला टप्पा पूर्ण केला आहे.</value>
+  </data>
+  <data name="srno" xml:space="preserve">
+    <value>Sr.No&lt;br/&gt;अ.क्र.</value>
+  </data>
+  <data name="subjectnstream" xml:space="preserve">
+    <value>Subjects/ Stream&lt;br/&gt;विषय / प्रवाह</value>
+  </data>
+  <data name="yearofpassing" xml:space="preserve">
+    <value>Month &amp; Year of Passing &lt;br/&gt;उत्तीर्ण / पास झाल्या चा महिना व वर्ष</value>
+  </data>
+  <data name="canphoto" xml:space="preserve">
+    <value>Upload Candidate Photo&lt;br/&gt;उमेदवार फोटो</value>
+  </data>
+  <data name="cansign" xml:space="preserve">
+    <value>Upload Candidate Sign&lt;br/&gt;उमेदवार स्वाक्षरी</value>
+  </data>
+  <data name="castcertificate" xml:space="preserve">
+    <value>Caste Certificate&lt;br/&gt;जातीचे प्रमाणपत्र</value>
+  </data>
+  <data name="castvaliditycertificate" xml:space="preserve">
+    <value>Caste Validity Certificate&lt;rb/&gt;जात वैधता प्रमाणपत्र</value>
+  </data>
+  <data name="checklistheading" xml:space="preserve">
+    <value>You have Uploaded Following Documents &lt;br/&gt; आपण अर्जासोबत खालील कागदपत्रे जोडली आहेत</value>
+  </data>
+  <data name="classngrade" xml:space="preserve">
+    <value>Class / Grade&lt;br/&gt;श्रेणी</value>
+  </data>
+  <data name="declaration1" xml:space="preserve">
+    <value>मी, श्याद्वारे पुढील प्रमाणे असे जाहीर करतो की,</value>
+  </data>
+  <data name="declaration1_0" xml:space="preserve">
+    <value>१) मी वाहन चालक पदासाठी माझा अर्ज दाखल केलेला आहे.</value>
+  </data>
+  <data name="declaration1_01" xml:space="preserve">
+    <value>२) आज रोजी मला</value>
+  </data>
+  <data name="declaration2" xml:space="preserve">
+    <value>(संख्या) इतकी ह्यात मुले आहेत. त्यापैकी दि.२८.०३.२००५ त्यानंतर जन्माला आलेल्या मुलांची संख्या</value>
+  </data>
+  <data name="declaration2_0" xml:space="preserve">
+    <value>आहे.&lt;br/&gt;(असल्यास जन्मदिनांक नमूद करावा)</value>
+  </data>
+  <data name="declaration3" xml:space="preserve">
+    <value>३) ह्यात असलेल्या मुलांची संख्या दोन पेक्षा अधिक असेल तर दिनांक.२०.०३.२००६ व तद्नंतर जन्माला आलेल्या मुलामुळे या पदासाठी मी अपात्र ठरविण्यास पात्र होईल याची मला जाणीव आहे.</value>
+  </data>
+  <data name="declaration4" xml:space="preserve">
+    <value>मी ......................... शपथपूर्वक सांगू इच्छितो की, मी अर्जात भरलेली माहिती व अर्जासोबत जोडलेली कागदपत्रे / प्रमाणपत्रे ही माझ्या माहितीप्रमाणे खरी व अचूक असून यात कोणतीही तफावत आढळून आल्यास मला महानिर्मिती कंपनीतर्फे सरळसेवा प्रवेशाद्वारे भरण्यात येणाऱ्या वाहन चालक या पदाकरीता अपात्र ठरविण्यात येईल याची मला पूर्ण जाणीव आहे</value>
+  </data>
+  <data name="districtempregcertificate" xml:space="preserve">
+    <value>District Employment Registration Certificate&lt;br/&gt;जिल्हा रोजगार प्रमाणपत्र</value>
+  </data>
+  <data name="domicile_certificate" xml:space="preserve">
+    <value>Domicile Certificate&lt;br/&gt;अधिवास (Domicile) प्रमाणपत्र</value>
+  </data>
+  <data name="earthquakeaffectedCertificate" xml:space="preserve">
+    <value>भूकंपग्रस्त असल्याबाबतचे विहित प्रमाणपत्र</value>
+  </data>
+  <data name="educationalnotes" xml:space="preserve">
+    <value>Notes :- / टीप:-</value>
+  </data>
+  <data name="educationalnotes1" xml:space="preserve">
+    <value>म. रा. वि . पारेषण कंपनीत कार्यरत कर्मचारी असेल तरच व  त्यांनी एन. सी. टी. व्ही. टी., नवी दिल्ली यांनी जारी केलेले वीजतंत्री (Electrician) व्यवसायातील आय. टी. आय. पास प्रमाणपत्र अथवा एन. सी. टी. व्ही. टी. नवी दिल्ली यांनी जारी केलेले (Wireman)  व्यवसायातील राष्ट्रीय शिकाऊ उमेदवारी पूर्ण केल्याचे प्रमाणपत्र धारण केले असेल तरच असे कर्मचारी अर्ज करू शकतात .</value>
+  </data>
+  <data name="ITIApmarksheet" xml:space="preserve">
+    <value>Apprentice Mark Sheet&lt;br/&gt;आय. टी. आय. परीक्षा पास झाल्याचे प्रमाणपत्र</value>
+  </data>
+  <data name="ITIAprentice" xml:space="preserve">
+    <value>Apprentice training Certificate in Electrician Trade in erstwhile MSEB / MSETCL&lt;br/&gt;तदर्थ म.रा.वि. मंडळ / महापारेषण पारेषण कंपनीमध्ये वीजतंत्री या व्यवसायातील शिकाऊ उमेदवारी प्रमाणपत्र</value>
+  </data>
+  <data name="ITICertificate" xml:space="preserve">
+    <value>National Apprenticeship Certificate in Electrician Trade awarded by NCTVT, New Delhi &lt;br/&gt; राष्ट्रीय व्यवसाय प्रशिक्षण परिषद (NCTVT), नवी दिल्ली यांनी प्रदान केलेले “वीजतंत्री” या व्यवसायातील शिकाऊ उमेदवारी प्रमाणपत्र</value>
+  </data>
+  <data name="ITIMarksheet" xml:space="preserve">
+    <value>I.T.I (Electrician) Mark Sheet&lt;br/&gt;वीजतंत्री व्यवसायातील आय. टी. आय. ट्रेड उत्तीर्ण झाल्याची गुणपत्रिका</value>
+  </data>
+  <data name="listsofCertificates" xml:space="preserve">
+    <value>Lists of Certificates&lt;br/&gt;प्रमाणपत्रे</value>
+  </data>
+  <data name="marriagepara1" xml:space="preserve">
+    <value>यांचा/ यांची मुलगा/मुलगी/पत्नी वय</value>
+  </data>
+  <data name="marriagepara2" xml:space="preserve">
+    <value>वर्षे, राहणार</value>
+  </data>
+  <data name="marriagepara3" xml:space="preserve">
+    <value>याद्वारे पुढीलप्रमाणे असे जाहीर करतो/ करते, की</value>
+  </data>
+  <data name="marriagepoints1" xml:space="preserve">
+    <value>1 . मी</value>
+  </data>
+  <data name="marriagepoints1_0" xml:space="preserve">
+    <value>या पदासाठी माझा अर्ज दाखल केला आहे.</value>
+  </data>
+  <data name="marriagepoints2" xml:space="preserve">
+    <value>2 . आज रोजी मला</value>
+  </data>
+  <data name="marriagepoints2_0" xml:space="preserve">
+    <value>(संख्या) इतकी हयात मुले आहेत. त्यापैकी दिनांक २८ मार्च २००५ नंतर जन्माला आलेल्या मुलांची संख्या</value>
+  </data>
+  <data name="marriagepoints2_01" xml:space="preserve">
+    <value>एवढी आहे.</value>
+  </data>
+  <data name="marriagepoints3" xml:space="preserve">
+    <value>3 . हयात असलेल्या मुलांची संख्या दोनपेक्षा जास्त असेल तर दिनांक २८ मार्च २००६ व तद्नंतर जन्माला आलेल्या मुलामुळे या पदासाठी मी अपात्र राहील, याची मला जाणीव आहे.</value>
+  </data>
+  <data name="marriagesalutaion" xml:space="preserve">
+    <value>मी, श्री/ श्रीमती</value>
+  </data>
+  <data name="msbprojectaffectedCertificate" xml:space="preserve">
+    <value>MSEB/MSETCL Project Affected Person Certificate &lt;br/&gt;म.रा.वि. मंडळ /महापारेषण कंपनीचे प्रकल्पग्रस्त असल्याबाबतचे प्रमाणपत्र</value>
+  </data>
+  <data name="ncl_certificate" xml:space="preserve">
+    <value>Non Creamy Layer Certificate&lt;br/&gt;प्रगत/ उन्नत गटात मोडत नसल्याचे प्रमाणपत्र</value>
+  </data>
+  <data name="phcertificate" xml:space="preserve">
+    <value>Physical Disability Certificate&lt;br/&gt;अपंगत्वाचे सक्षम प्राधिकारी यांनी दिलेले वैद्यकीय प्रमाणपत्र</value>
+  </data>
+  <data name="pmarks" xml:space="preserve">
+    <value>% of Marks&lt;br/&gt;टक्केवारी %</value>
+  </data>
+  <data name="qualification1" xml:space="preserve">
+    <value>S.S.C&lt;br/&gt;एस.एस.सी (१० वी)</value>
+  </data>
+  <data name="qualification2" xml:space="preserve">
+    <value>Possessing National Apprenticeship Certificate in Electrican Trade awarded by NCTVT, New Delhi on completion of National Apprenticeship under Apprenticeship Act, 1961&lt;br/&gt; शिकाऊ उमेदवारी कायदा १९६१ अंतर्गत राष्ट्रीय व्यवसाय प्रशिक्षण परिषद (NCTVT), नवी दिल्ली यांनी प्रदान केलेले “वीजतंत्री” या व्यवसायातील शिकाऊ उमेदवारी प्रमाणपत्र धारक आहात का?</value>
+  </data>
+  <data name="qualification3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="qualification4" xml:space="preserve">
+    <value>Possessing National Trade Certificate in Electrician Trade awarded by NCTVT, New Delhi on completion of ITI Trade Course &lt;br/&gt; औद्योगिक प्रशिक्षण संस्थेकडून “वीजतंत्री” व्यवसायातील पाठ्यक्रम पूर्ण केल्यानंतर राष्ट्रीय व्यवसाय प्रशिक्षण परिषद (NCTVT), नवी दिल्ली यांनी प्रदान केलेले “वीजतंत्री” या व्यवसायातील राष्ट्रीय व्यवसाय प्रमाणपत्र धारक आहात काय?</value>
+  </data>
+  <data name="shri" xml:space="preserve">
+    <value>श्री.</value>
+  </data>
+  <data name="soldure_certificate" xml:space="preserve">
+    <value>Ex-Servicemen Certificate&lt;br/&gt;सशस्त्र दलात सेवा केल्याबद्दलचे प्रमाणपत्र</value>
+  </data>
+  <data name="sportreservationcertificate" xml:space="preserve">
+    <value>Sport Reservation Certificate&lt;br/&gt;खेळाडूंच्या आरक्षणांतर्गत लाभ घ्यावयाचा असल्यास त्याबाबतचे विहित प्रमाणपत्रे</value>
+  </data>
+  <data name="sscCertificate" xml:space="preserve">
+    <value>Upload SSC Passing Certificate&lt;br/&gt;दहावीचे उत्तीर्ण केल्याचे प्रमाणपत्र</value>
+  </data>
+  <data name="sscSchoolleaving" xml:space="preserve">
+    <value>School Leaving Certificate &lt;br/&gt;शाळा सोडल्याचे प्रमाणपत्र</value>
+  </data>
+  <data name="totalmarks" xml:space="preserve">
+    <value>Total Marks&lt;br/&gt;एकूण गुण</value>
+  </data>
+  <data name="uploadstatus" xml:space="preserve">
+    <value>Status&lt;br/&gt;स्थिती</value>
+  </data>
+  <data name="castcomments" xml:space="preserve">
+    <value>(Candidates not availing reservation benefit shall be treated as Open Category candidates)&lt;br/&gt;(आरक्षणाचा लाभ न घेणाऱ्या उमेदवारास खुल्या प्रवर्गाचे समजले जाईल )</value>
+  </data>
+  <data name="castreservation" xml:space="preserve">
+    <value>Whether candidate wants to take/avail reservation benefit &lt;br/&gt;
+उमेदवारास आरक्षणाचा लाभ हवा आहे काय </value>
+  </data>
+  <data name="examcenter1" xml:space="preserve">
+    <value>परीक्षा केंद्र 1</value>
+  </data>
+  <data name="postapplied" xml:space="preserve">
+    <value>Post Applied&lt;br/&gt;पदनाम</value>
+  </data>
+  <data name="punchline" xml:space="preserve">
+    <value>महाराष्ट्र राज्य विद्युत पारेषण कंपनीच्या अंतर्गत कार्यरत असलेल्या विविध परिमंडल कार्यालयांच्या कार्यक्षेत्रातील विभागीय कार्यालयांसाठी वेतन गट-४ मधील विभागीय सेवाज्येष्ठतेची तंत्रज्ञ श्रेणी-४ ची रिक्त पदे सरळसेवा भरतीद्वारे भरणे करीता अर्हतापात्र उमेदवारांकडून विहित नमुन्यातील अर्ज ऑनलाईन पद्धतीने मागविण्यात येत आहेत.</value>
+  </data>
+  <data name="examcenter2" xml:space="preserve">
+    <value>परीक्षा केंद्र 2</value>
+  </data>
+  <data name="examcenter3" xml:space="preserve">
+    <value>परीक्षा केंद्र 3</value>
+  </data>
+  <data name="mahatranscoofficeaddress" xml:space="preserve">
+    <value>Office Address&lt;br/&gt;</value>
+  </data>
+  <data name="uploadcastvaliditycertificate" xml:space="preserve">
+    <value>जात वैधता प्रमाणपत्र अपलोड करा</value>
+  </data>
+  <data name="uploadearthquakecertificate" xml:space="preserve">
+    <value>भूकंपग्रस्त प्रमाणपत्र अपलोड करा</value>
+  </data>
+  <data name="vashi" xml:space="preserve">
+    <value>Vashi / वाशी</value>
+  </data>
+  <data name="nationaltrade" xml:space="preserve">
+    <value>National Trade Certificate in Electrician Trade awarded by NCTVT, New Delhi &lt;br/&gt; राष्ट्रीय व्यवसाय प्रशिक्षण परिषद (NCTVT), नवी दिल्ली यांनी प्रदान केलेले “वीजतंत्री” या व्यवसायातील राष्ट्रीय व्यवसाय प्रमाणपत्र</value>
+  </data>
+  <data name="uploadDistempregcertificate" xml:space="preserve">
+    <value>Upload District Employment Registration Certificate&lt;br/&gt;जिल्हा रोजगार प्रमाणपत्र अपलोड करा </value>
+  </data>
+  <data name="contactus" xml:space="preserve">
+    <value>* For any Technical queries contact on / अर्ज सादर करताना येणाऱ्या तांत्रिक अडचणीसाठी येथे संपर्क साधावा</value>
+  </data>
+  <data name="Processflow" xml:space="preserve">
+    <value>Application Process Flow / अर्ज सादर करण्याचा क्रम</value>
+  </data>
+  <data name="uploadmarathi" xml:space="preserve">
+    <value>Upload Marathi Knowledge Certificate&lt;br/&gt;मराठी भाषेचे ज्ञान असल्याचे प्रमाणपत्र अपलोड करा</value>
+  </data>
+  <data name="candidatename" xml:space="preserve">
+    <value>उमेदवाराचे नाव</value>
+  </data>
+  <data name="changename" xml:space="preserve">
+    <value>Candidate Name after Change&lt;br/&gt;बदला नंतर उमेदवाराचे नाव</value>
+  </data>
+  <data name="frmyear" xml:space="preserve">
+    <value>From Year&lt;br/&gt;कालावधी पासून</value>
+  </data>
+  <data name="isnamechange" xml:space="preserve">
+    <value>Has candidate changed his/her Name?&lt;br/&gt;उमेदवाराने आपले नाव बदलले आहे काय?</value>
+  </data>
+  <data name="ITIAppcertificate" xml:space="preserve">
+    <value>Upload National Apprenticeship Certificate in Electrican Trade awarded by NCTVT New Delhi &lt;br/&gt; राष्ट्रीय व्यवसाय प्रशिक्षण परिषद (NCTVT), नवी दिल्ली यांनी प्रदान केलेले “वीजतंत्री” या व्यवसायातील शिकाऊ उमेदवारी प्रमाणपत्र अपलोड करावे</value>
+  </data>
+  <data name="lblITI" xml:space="preserve">
+    <value>ITI (औद्योगिक प्रशिक्षण संस्था)</value>
+  </data>
+  <data name="newName" xml:space="preserve">
+    <value>New Name&lt;br/&gt;नवीन नाव</value>
+  </data>
+  <data name="oldname" xml:space="preserve">
+    <value>Old Name&lt;br/&gt;पूर्वीचे नाव</value>
+  </data>
+  <data name="tradecertificate" xml:space="preserve">
+    <value>Upload National Trade Certificate in Electrician Trade &lt;br/&gt;“वीजतंत्री” या व्यवसायातील राष्ट्रीय व्यवसाय प्रमाणपत्र अपलोड करावे</value>
+  </data>
+  <data name="uploadnamechangecertificate" xml:space="preserve">
+    <value>Upload Change of Name Certificate&lt;br/&gt;नाव बदलेले असल्याचे प्रमाणपत्र अपलोड करा</value>
+  </data>
+  <data name="yearto" xml:space="preserve">
+    <value>To Year&lt;br/&gt;कालावधी पर्यंत</value>
+  </data>
+  <data name="trainingfrom" xml:space="preserve">
+    <value>From&lt;br/&gt;पासून</value>
+  </data>
+  <data name="trainingto" xml:space="preserve">
+    <value>To&lt;br/&gt;पर्यंत</value>
+  </data>
+  <data name="uploaddobproof" xml:space="preserve">
+    <value>Upload Date of Birth Certificate &lt;br/&gt; जन्मतारखेचे प्रमाणपत्र अपलोड करा</value>
+  </data>
+  <data name="Dobproofcertificate" xml:space="preserve">
+    <value> जन्म तारखेचे प्रमाणपत्र</value>
+  </data>
+  <data name="isknowmarathicertificate" xml:space="preserve">
+    <value>Marathi Knowledge Certificate&lt;br/&gt;मराठी भाषेचे ज्ञान असल्याचे प्रमाणपत्र</value>
+  </data>
+  <data name="namechange" xml:space="preserve">
+    <value>Change of Name Certificate&lt;br/&gt;नाव बदलेले असल्याचे प्रमाणपत्र</value>
+  </data>
+  <data name="ApplyCategory" xml:space="preserve">
+    <value>अर्जदार कोणत्या जातीतून अर्ज करु इच्छितो</value>
+  </data>
+  <data name="SubCategory" xml:space="preserve">
+    <value>पोटजात</value>
+  </data>
+  <data name="Armyexperince" xml:space="preserve">
+    <value>माजी सैनिक म्हणून सेनादलातील अखंडित पात्र सेवेचा कालावधी</value>
+  </data>
+  <data name="Armyperson" xml:space="preserve">
+    <value>अर्जदार माजी सैनिक आहे का</value>
+  </data>
+  <data name="ArmyStateOffice" xml:space="preserve">
+    <value>अर्जदाराने जिल्हा सैनिक कार्यालयात नाव नोंदणी केलेली आहे का</value>
+  </data>
+  <data name="ArmyStateOfficename" xml:space="preserve">
+    <value>अर्जदाराने जिल्हा सैनिक कार्यालयात नाव नोंदणी केल्याचे क्रमांक</value>
+  </data>
+  <data name="domicilenumber" xml:space="preserve">
+    <value>अधिवासी प्रमाणपत्र क्रमांक</value>
+  </data>
+  <data name="isdomicile" xml:space="preserve">
+    <value>अर्जदार महाराष्ट्राचा अधिवासी आहे काय</value>
+  </data>
+  <data name="mobileno1" xml:space="preserve">
+    <value>मोबाईल क्र. २</value>
+  </data>
+  <data name="Noncreamlenear" xml:space="preserve">
+    <value>आपल्या जवळ जाहिरातीच्या अंतिम दिनांकास वैध असलेले नॉन क्रिमीलेयर प्रमाणपत्र आहे का?&lt;br/&gt;(विमुक्त जाती-अ प्रवर्गातून अर्ज करणाऱ्या उमेदवारांजवळ नॉन क्रिमीलेयर प्रमाणपत्र असण आवश्यक आहे)</value>
+  </data>
+  <data name="lbldeclaration4" xml:space="preserve">
+    <value>४)मी असे प्रमाणित करतो की माझी निवड झाल्यास. मी महानिर्मिती कंपनीच्या कोणत्याही विदयुत केंद्रातील ठिकाणी रुजू होण्यास तयार आहे.</value>
+  </data>
+  <data name="lbldeclaration6" xml:space="preserve">
+    <value>ठिकाण:-</value>
+  </data>
+  <data name="lbldeclaration7" xml:space="preserve">
+    <value>दिनांक:-</value>
+  </data>
+</root>

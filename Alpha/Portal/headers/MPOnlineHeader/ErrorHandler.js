@@ -1,0 +1,1 @@
+﻿window.onerror = function (e, t, n) { try { } catch (r) { } return true }

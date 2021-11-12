@@ -1,0 +1,411 @@
+﻿.vred
+{
+    background: url(  'dot2.jpg' ) center no-repeat;
+    color: white;
+}
+.vgray
+{
+    background-color: white;
+}
+.visiTrue
+{
+    display: block;
+}
+.visiFalse
+{
+    display: none;
+}
+
+
+pdiv
+{
+    background-color: #D7FDFE;
+    font-weight: bold;
+    font-size: 12px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.ddl
+{
+    border: 1px solid gray;
+    padding-left: 3px;
+    padding-top: 3px;
+    font-family: Calibri;
+}
+
+.UploadControl
+{
+    border: 1px solid lightgray;
+    height: 22px;
+    padding-left: 3px;
+    padding-top: 3px;
+    font-family: Calibri;
+    background-color: white;
+}
+
+
+
+.UploadControl[disabled]:hover
+{
+    border: 1px solid lightgray;
+    height: 22px;
+    padding-left: 3px;
+    padding-top: 3px;
+    font-family: Calibri;
+}
+
+
+
+.Heading
+{
+    font-weight: bold;
+    color: #0464C7;
+    font-size: 10pt;
+}
+
+legend
+{
+    font-weight: bold;
+    font-size: 15px;
+    color: #333333;
+}
+
+.notetext
+{
+    color: red;
+    font-size: 12px;
+}
+
+#Container
+{
+    width: 980px;
+    margin: 0px auto;
+    background-color: #fafafa;
+    border: solid 1px #fff;
+    padding: 5px 5px;
+    font-size: 10px;
+}
+
+#Container h2
+{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    font-family: Calibri;
+    color: #000;
+    font-weight: normal;
+    font-style: normal !important;
+    margin: 10px 0 0 0;
+}
+#Container h3
+{
+    text-align: left;
+    font-size: 14px;
+    font-family: Calibri;
+    color: #000;
+    margin: 0 0 0 0;
+    padding: 4px 4px;
+    background-color: #cfe0f4;
+    font-weight: normal;
+}
+
+#content table td
+{
+    height: auto !important;
+    border: none !important;
+    padding: 0 0 0 0;
+    border-style: none !important;
+}
+
+
+/*end  for table of post*/
+
+input[type="text"], textarea, input[type="Password"]
+{
+    position: relative;
+    vertical-align: middle;
+    width: 85%;
+    padding: 7px 7px;
+    border-radius: 5px 5px;
+    border: solid 1px #dadada;
+    line-height: 15px;
+    top: 0px;
+    left: 1px;
+}
+input[type="text"]:focus, textarea:focus, input[type="Password"]:focus
+{
+    border: solid 1px #DADADA;
+    box-shadow: 0 0 15px #DADADA;
+}
+
+.span
+{
+    font-size: 11px !important;
+    color: Red;
+}
+.heading
+{
+    text-align: center;
+    font-size: 17px !important;
+    font-family: Calibri;
+    color: #fff;
+    margin: 0 0 0 0;
+    padding: 10px 4px;
+    background-color: #186CA3;
+}
+
+.ProfileHeader
+{
+    background-color: #3877AC;
+    padding: 4px 4px;
+    padding: 7px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+.btn
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: #186CA3;
+    cursor: pointer;
+    border-radius: 4px 4px;
+    color: #fff;
+    padding: 7px 7px;
+}
+.btn:hover
+{
+    background-color: #4B0082;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px 4px;
+    padding: 7px 7px;
+}
+
+.txt-center
+{
+    text-align: center !important;
+}
+.txt-left
+{
+    text-align: left !important;
+}
+.txt-right
+{
+    text-align: right !important;
+}
+
+
+.TRhead
+{
+    color: White;
+    background-color: #3877AC !important;
+}
+
+
+/**************************************/
+
+.Hrftable
+{
+    border-collapse: collapse;
+    font-family: calibri;
+    font-size: 14px;
+    width: 100%;
+}
+.Hrftable th
+{
+    background: #4B0082; /*background: #E8ECFB;*/
+    border: #ddd 1px solid;
+    color: #fff; /*color: #000;*/
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 0 0 0;
+    padding: 7px;
+    text-align: left;
+}
+
+.Hrftable td
+{
+    border: #ddd 1px solid;
+    padding: 7px;
+}
+
+.Hrftable tr
+{
+    background: #fafafa;
+}
+.Hrftable tr:nth-child(odd)
+{
+    background: #E6E6FA;
+}
+.Hrftable tr:nth-child(even)
+{
+    background: #E6E6FA;
+}
+
+
+
+/*Loader*/
+.modal
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 99;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    min-height: 100%;
+    width: 100%;
+}
+.loading
+{
+    font-family: Arial;
+    font-size: 10pt;
+    border: 5px solid #67CFF5;
+    width: 200px;
+    height: 100px;
+    display: none;
+    position: fixed;
+    background-color: White;
+    z-index: 999;
+}
+
+/***********Small input for grid ***********/
+
+.small_input
+{
+    position: relative !important;
+    vertical-align: middle !important;
+    padding: 4px 4px !important;
+    border-radius: 5px 5px !important;
+    border: solid 1px #dadada !important;
+    line-height: 10px !important;
+}
+.small_input:focus
+{
+    border: solid 1px #DADADA;
+    box-shadow: 0 0 15px #DADADA;
+}
+
+
+.small_select
+{
+    position: relative !important;
+    vertical-align: middle !important;
+    padding: 2px 2px !important;
+    border-radius: 5px 5px !important;
+    border: solid 1px #dadada !important;
+    line-height: 10px !important;
+}
+.small_select:focus
+{
+    border: solid 1px #DADADA;
+    box-shadow: 0 0 15px #DADADA;
+}
+
+
+.select
+{
+    width: 98%;
+    padding: 5px 5px;
+    border-radius: 5px 5px;
+    border: 1px solid #dadada;
+}
+.select:focus
+{
+    border: solid 1px #DADADA;
+    box-shadow: 0 0 15px #DADADA;
+}
+
+
+/**Links**/
+.blue_link
+{
+    color: #186CA3 !important;
+    text-decoration: none;
+    font-weight: 700;
+}
+.blue_link:hover
+{
+    color: #186CA3 !important;
+    text-decoration: underline;
+}
+
+/**Links**/
+.Green_link
+{
+    color: #2e8000 !important;
+    text-decoration: none;
+    font-weight: 700;
+}
+.Green_link:hover
+{
+    color: red !important;
+    text-decoration: underline;
+}
+
+
+/********************Print Css******************************/
+
+@media print
+{
+    *
+    {
+        color: #000 !important;
+         font-size:5px;
+    }
+
+  
+    .Hrftable
+    {
+        border-collapse: collapse !important;
+        font-family: Verdana !important;
+        font-size: 11px !important;
+        width: 100% !important;
+    }
+    .Hrftable th
+    {
+        color: #000 !important;
+        font-size: 13px !important;
+        font-weight: bold !important;
+        padding: 6px !important;
+        text-align: left !important;
+    }
+    
+    
+    .Hrftable td
+    {
+        border: #ddd 1px solid !important;
+        padding: 6px !important;
+    }
+    
+    .Hrftable tr
+    {
+        background: #fafafa;
+    }
+    .Hrftable tr:nth-child(odd)
+    {
+        background: #FBFBFB;
+    }
+    .Hrftable tr:nth-child(even)
+    {
+        background: #f7f7f7;
+    }
+    .heading
+    {
+        text-align: center !important;
+        font-size: 13px !important;
+        font-family: Verdana !important;
+        color: #000 !important;
+        margin: 0 0 0 0;
+        padding: 7px 2px !important;
+        background-color: #186CA3 !important;
+    }
+
+}
+/***********end******************/
